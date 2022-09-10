@@ -1,0 +1,92 @@
+.about {
+    padding: 7rem;
+    width: 100%;
+    background: var(--background);
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.about--img {
+    height: 22rem;
+    max-width: 25rem;
+    margin: auto;
+}
+
+.about .about--text h1 {
+    font-size: 2.8rem;
+    padding-bottom: 2rem;
+}
+
+.about .about--text h4 {
+    font-size: 1.8rem;
+    padding-bottom: 0.4rem;
+}
+.about .about--text h6 {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    opacity: 70%;
+}
+
+.about .about--text p {
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+}
+
+
+@media screen and (max-width: 1222px) {
+    .about--img {
+        height: 20rem;
+    }
+
+    .about .about--text h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 957px) {
+    .about--img {
+        height: 17.5rem;
+    }
+
+    .about .about--text p {
+        max-width: 100%;
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+
+    .about .about--text h1 {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .about {
+        padding: 1.5rem;
+        min-width: 280px;
+    }
+    
+    .about--img {
+        height: 15rem;
+    }   
+
+    .about .about--text h1 {
+        font-size: 1.7rem;
+        padding-bottom: 1.5rem;
+    }
+    .about .about--text h4 {
+        font-size: 1.2rem;
+        padding-bottom: 0.2rem;
+    }
+    .about .about--text h6 {
+        font-size: 1rem;
+        padding-bottom: 2rem;
+        opacity: 70%;
+    }
+
+    .about .about--text p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+}
